@@ -1,7 +1,7 @@
 {
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
-  "version": "1.1.49",
+  "version": "1.0",
   "manifest_version": 2,
   "background": {
     "page": "pages/background/background.html",
@@ -16,7 +16,7 @@
   },
   "permissions": ["storage", "webRequest", "webRequestBlocking", "<all_urls>"],
   "browser_action": {
-    "default_title": "Privacy Redirect",
+    "default_title": "Privacy Redirect_JP",
     "default_popup": "pages/popup/popup.html",
     "default_icon": {
       "16": "assets/images/icon16.png",
@@ -32,7 +32,9 @@
         "*://www.twitter.com/*",
         "*://mobile.twitter.com/*",
         "*://pbs.twimg.com/*",
-        "*://video.twimg.com/*"
+        "*://video.twimg.com/*",
+        "*://x.com/*",
+        "*://www.x.com/*"
       ],
       "js": ["assets/javascripts/remove-twitter-sw.js"],
       "run_at": "document_start"

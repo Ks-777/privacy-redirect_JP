@@ -1,3 +1,4 @@
+`これはx.comに対応し、日本語に対応したPrivacy Redirectです。以下のReadMeは暫く元リポジトリのままとなります。`
 # ![privacy-redirect](src/assets/images/logo-small.png)
 
 [![Awesome Humane Tech](https://raw.githubusercontent.com/humanetech-community/awesome-humane-tech/main/humane-tech-badge.svg?sanitize=true)](https://github.com/humanetech-community/awesome-humane-tech)
